@@ -60,7 +60,7 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Votre email ou votre mot de passe est vide !!!",Toast.LENGTH_LONG).show();
                 }
                 else {
-                    if (txtEmail.getText().toString().equals("ghost")){
+                    if (txtEmail.getText().toString().equals("milandou")){
                         Toast.makeText(getApplicationContext(),"Votre email est invalide !!!",Toast.LENGTH_LONG).show();
                     }
                     else {
